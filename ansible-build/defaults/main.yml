@@ -1,0 +1,31 @@
+# TODO: Owner and group for Crowd.
+# crowd_owner: "daemon"
+# crowd_group: "daemon"
+
+# TODO: Location for the $CROWD_HOME directory
+# crowd_home: "/var/atlassian/application-data/crowd"
+
+# TODO: Location for the $CROWD_CATALINA directory.
+# crowd_catalina: "/opt/atlassian/crowd"
+
+# TODO: Crowd JVM minimal and maximum memory usage.
+# crowd_jvm_minimum_memory: "384m"
+# crowd_jvm_maximum_memory: "768m"
+
+# TODO: Crowd Apache Tomcat connector and server port.
+# crowd_connector_port: "8095"
+# crowd_server_port: "8020"
+
+# TODO: Context path for Crowd installation.
+# crowd_context_path: ~
+
+# TODO: If Crowd running behide reverse proxy, setup `crowd_scheme` with whatever
+# `http` or `https`, and supply `crowd_proxy_name` with its domain name.
+# crowd_proxy_name: ~
+# crowd_scheme: ~
+
+# TODO: Atlassian Support recommended JVM arguments.
+# crowd_jvm_support_recommended_args: "-Datlassian.plugins.enable.wait=300"
+
+# TODO: URL for download Crowd archive.
+# crowd_url: "https://downloads.atlassian.com/software/crowd/downloads/atlassian-crowd-3.1.2.tar.gz"
