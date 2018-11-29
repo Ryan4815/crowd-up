@@ -10,3 +10,7 @@ Something like this in the Vagrant file to get a gui on the ubuntu server image?
        s.inline = "sudo apt-get update"
 	   s.inline = "sudo apt-get install -y xfce4 virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11"
 	end	
+	
+	
+https://www.youtube.com/watch?v=cIevkkD_LB4 - Part 1 and 2 - Good Selenium Tutorial / Tips
+
