@@ -12,5 +12,6 @@ Something like this in the Vagrant file to get a gui on the ubuntu server image?
 	end	
 	
 	
-	
 Ansible-build role for Crowd by Wong Hoi Sing Edison at https://github.com/alvistack/ansible-role-crowd and used under Apache License 2.0
+
+https://www.youtube.com/watch?v=cIevkkD_LB4 - Part 1 and 2 - Good Selenium Tutorial / Tips
