@@ -10,3 +10,7 @@ Something like this in the Vagrant file to get a gui on the ubuntu server image?
        s.inline = "sudo apt-get update"
 	   s.inline = "sudo apt-get install -y xfce4 virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11"
 	end	
+	
+	
+	
+Ansible-build role for Crowd by Wong Hoi Sing Edison at https://github.com/alvistack/ansible-role-crowd and used under Apache License 2.0
