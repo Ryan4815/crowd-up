@@ -1,17 +1,19 @@
 # crowd-up
 
-Trying to install Atlassian Crowd with Ansible in a VM and testing with Selenium
+Clone this repo onto a Linux VM. This will be the controll machine upon which Ansible will be installed and used to provision a second VM for Crowd.
 
-See https://github.com/boxcutter/ubuntu for box images
+Run "vagrant up" to create an Ubuntu 18.04 Desktop LTS Virtual Machines, for host (Crowd and Selenium installs via Ansible). 
 
-Something like this in the Vagrant file to get a gui on the ubuntu server image?
+The provisioning will run an Ansible playbook on the VM to install Atlassian Crowd.
 
-	config.vm.provision "config" do |s|
-       s.inline = "sudo apt-get update"
-	   s.inline = "sudo apt-get install -y xfce4 virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11"
-	end	
-	
-	
+Selenium based UI tests (written in Java) can be found in the "selenium-test" folder.
+
+To test Atlassian Crowd with Selenium run the following: ""
+
+-----------
+
 Ansible-build role for Crowd by Wong Hoi Sing Edison at https://github.com/alvistack/ansible-role-crowd and used under Apache License 2.0
 
 https://www.youtube.com/watch?v=cIevkkD_LB4 - Part 1 and 2 - Good Selenium Tutorial / Tips
+
+Instructions for setting up SSH for Bitbucket and Git: https://confluence.atlassian.com/bitbucket/set-up-ssh-for-git-728138079.html
