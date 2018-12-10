@@ -12,7 +12,9 @@ To test Atlassian Crowd with Selenium run the following: ""
 
 -----------
 
-Ansible-build role for Crowd by Wong Hoi Sing Edison at https://github.com/alvistack/ansible-role-crowd and used under Apache License 2.0
+ansible-role-crowd used https://github.com/mimacom/ansible-role-crowd - This role was created by Remo Wenger (mimacom) and used under Apache License 2.0.
+
+Alternate Ansible-build role for Crowd by Wong Hoi Sing Edison at https://github.com/alvistack/ansible-role-crowd and used under Apache License 2.0
 
 https://www.youtube.com/watch?v=cIevkkD_LB4 - Part 1 and 2 - Good Selenium Tutorial / Tips
 
