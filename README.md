@@ -4,9 +4,9 @@ Clone this repo onto a Linux VM. This will be the controll machine upon which An
 
 Run "vagrant up" to create an Ubuntu 18.04 Desktop LTS Virtual Machines, for host (Crowd and Selenium installs via Ansible). 
 
-The provisioning will run an Ansible playbook on the VM to install Atlassian Crowd.
+The provisioning will run an Ansible playbook on the VM to install Atlassian Crowd, selenium  and the java development kit (JDK).
 
-Selenium based UI tests (written in Java) can be found in the "selenium-test" folder.
+Selenium based UI tests (written in Java) can be found in the "selenium-test/crowd" folder (another example for writing selenium tests is provided in the example/ directory).
 
 To test Atlassian Crowd with Selenium run the following: ""
 
